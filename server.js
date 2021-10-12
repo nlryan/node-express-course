@@ -7,7 +7,7 @@ console.log("server is running")
 
 const mockUserData=[
     {name:'Mark'},
-    {name:'Jill'}
+    {name:'Nicole'}
     ]
     app.get('/users', function(req,res){
          res.json({
